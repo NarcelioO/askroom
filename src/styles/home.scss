@@ -1,8 +1,6 @@
 .login{
-    display: flex;
-
+    display:flex;
     justify-content: center;
-  
     
 }
 
@@ -13,22 +11,24 @@
     text-align: center;
     align-items: stretch;
     padding: 3rem 4rem;
-    border-radius: 8px;
+    border-radius: 0.5rem;
     background-color: #FDFDFD;
-    box-shadow: 10px 10px 20px #AAAAAB;
+    box-shadow: 0.6rem 0.6rem 0.6rem #AAAAAB;
 
 
     h1{
         color: #06f;
+        font-size: 2rem;
     }
 
     p{
-        font-size: 14px;
+        font-size: 0.8rem;
         color: #737380;
         margin-top: 1rem;
 
         a{
             color:#06f;
+            font-size: 0.8rem;
         }
     }
     
@@ -38,17 +38,17 @@
 
 
 .input{
-    height: 50px;
-    border-radius: 5px;
+    height: 3.1rem;
+    border-radius: 0.3rem;
     padding: 0 1rem;
     background-color: white;
     border:1px solid  #a8a8b3
 }
 
 .create_room{
-    margin-top: 30px;
-    height: 50px;
-    border-radius: 5px;
+    margin-top: 1.8rem;
+    height: 3.1rem;
+    border-radius: 0.3rem;
     font-weight: 500;
     background-color: #ea4335;
     color: white;
