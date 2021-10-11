@@ -1,0 +1,25 @@
+
+
+.button{
+    margin-top: 10px;
+    height: 50px;
+    border-radius: 7px;
+    font-weight:500;
+    background-color: #06f;
+    color: white;
+    cursor: pointer;
+    border:0;
+    padding: 0 45px;
+    
+    &.outlined{
+        background-color: #fff;
+        border:1px solid #06f;
+        color:#06f;
+    }
+    
+    & :hover{
+        filter: brightness(0.9);
+    }
+    
+    
+}
