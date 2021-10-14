@@ -37,6 +37,13 @@ export function NewRoom(){
 
     }
     return(
+        <div className="container">
+        <div className="texto">
+            <div>
+            <h1>askroom</h1>
+            <p>asdasdasdasdd</p>
+            </div>
+        </div>
         <div className="login">
             <div className="form">
 
@@ -57,5 +64,6 @@ export function NewRoom(){
             </form>
             </div>
         </div>
+    </div>
     )
 }

@@ -12,7 +12,7 @@
    
     &.highlighted{
         background-color: #f4f0ff;
-        border: 1px solid #06f ;
+        border: 1px solid #4130FD ;
     }
 
     &.answered{
@@ -72,10 +72,10 @@
         
 
         &.liked{
-            color: #06f;
+            color: #4130FD;
 
             svg path{
-                stroke:#06f ;
+                stroke:#4130FD ;
                
                 
             }

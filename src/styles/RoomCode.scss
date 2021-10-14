@@ -1,19 +1,22 @@
 .room-code{
     height: 2.5rem;
-    border-radius: 9999px;
+    border-radius: 8px;
     overflow: hidden;
-    background-color: #fff;
-    border: 1px solid #06f;
+    margin: 0;
+
+    border:inherit;
     cursor: pointer;
     display: flex;
  
 
 
     div{
-        border-radius: 9999px;
-        background-color: #06f;
+       
+        background-color: #4130FD;
         padding: 0 0.7rem;
         display: flex;
+        border-top-left-radius: 8px;
+        border-bottom-left-radius:  8px;
         justify-content: center;
         align-items: center;
         margin: 0;
@@ -21,10 +24,14 @@
     }
 
     span{
+            border: 1px solid #4130FD;  
+            background-color: white;
+            padding: 0.5rem  0 0.8rem;
             display: block;
             align-self: center;
             flex: 1;
-            padding: 0 1rem 0 0.7rem;
+            border-bottom-right-radius: 8px;
+            border-top-right-radius: 8px;
             width: 14rem;
             font-size: 0.8rem;
             font-weight: 500;

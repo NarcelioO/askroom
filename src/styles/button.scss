@@ -4,8 +4,9 @@
     margin-top: 0.6rem;
     height: 3.1rem;
     border-radius: 0.4rem;
-    font-weight:500;
-    background-color: #06f;
+    font-family: 'poppins', sans-serif;
+    font-weight:700;
+    background-color: #4130FD;
     color: white;
     cursor: pointer;
     border:0;
@@ -13,8 +14,8 @@
     
     &.outlined{
         background-color: #fff;
-        border:1px solid #06f;
-        color:#06f;
+        border:1px solid #4130FD;
+        color:#4130FD;
     }
     
     & :hover{

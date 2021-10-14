@@ -1,5 +1,4 @@
 
-
 #page-room{
 
     header{
@@ -21,7 +20,10 @@
             h1{
                 font-size: 1.5rem;
                 font-weight:700;
-                color:#06f ;
+                color:#4130FD ;
+               
+                
+                
             }
 
             > img{
@@ -31,7 +33,7 @@
 
             > div{
                 display: flex;
-                flex-wrap: wrap;
+               
                 align-items: center;
                 gap: 16px;
                
@@ -124,7 +126,7 @@
                     button{
                             background-color: transparent;
                             border: 0;
-                            color: #502BE3;
+                            color: #4130FD;
                             text-decoration: underline;
                             font-size: 0.8rem;
                             font-weight: 500;
@@ -139,6 +141,17 @@
         }   
 
 
+        
+    }
+}
+
+@media(max-width:650px){
+    .room-code div{
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+    }
+    .room-code span{           
+                display: none;           
         
     }
 }

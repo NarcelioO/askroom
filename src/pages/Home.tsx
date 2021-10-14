@@ -4,6 +4,7 @@ import { useHistory } from 'react-router'
 import { FormEvent, useContext, useState } from 'react'
 import { AuthContext } from '../contexts/AuthContext'
 import { database } from '../services/firebase'
+import ImgGoogleICon from '../assets/images/google-icon.svg'
 
 
 
@@ -42,12 +43,19 @@ export function Home(){
         history.push(`/rooms/${roomCode}`)
     }
     return(
-
+        <div className="container">
+        <div className="texto">
+            <div>
+            <h1>askroom</h1>
+            <p>Ambiente rapido e simples para responder duvidas.</p>
+            </div>
+        </div>
         <div className="login">
  
             <div className="form">
             <h1 className="titulo">askroom</h1>
            <button onClick={handleCreateRoom} className="create_room">
+               <img src={ImgGoogleICon} alt="" />
                 Crie sua sala com o Google
             </button>
             <div>ou entre em uma sala</div>
@@ -64,5 +72,6 @@ export function Home(){
             </form>
             </div>
         </div>
+    </div>
     )
 }

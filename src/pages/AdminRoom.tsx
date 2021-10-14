@@ -1,7 +1,7 @@
 import { Button } from "../components/Button";
 import { RoomCode } from "../components/RoomCode";
 import '../styles/room.scss'
-import { useHistory, useParams } from "react-router-dom";
+import { Link, useHistory, useParams } from "react-router-dom";
 import { Question } from "../components/Questions";
 import { useRoom } from "../hooks/useRoom";
 import { database } from "../services/firebase";
@@ -62,7 +62,7 @@ export default function AdminRoom(){
         <div id="page-room">
             <header>
                 <div className="content">
-                    <h1>askroom</h1>
+                <h1><Link style={{ color: 'inherit' ,textDecoration:'none'}}to="/">askroom</Link></h1>
                     <img src="" alt="" />
 
                     <div>
@@ -74,6 +74,8 @@ export default function AdminRoom(){
             <main >
                 <div className="room-title">
                     <h1>SALA : {title} </h1>
+                  
+                    {questions.length <= 0 && <span> 0 pergunta(s)</span> }
                     { questions.length > 0 && <span>{questions.length} pergunta(s)</span> }
                                
                 </div>
