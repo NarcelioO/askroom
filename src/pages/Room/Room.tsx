@@ -1,12 +1,12 @@
-import { Button } from "../components/Button";
-import { RoomCode } from "../components/RoomCode";
-import '../styles/room.scss'
+import { Button } from "../../components/button/Button";
+import { RoomCode } from "../../components/RoomCode/RoomCode";
+import './room.scss'
 import { useHistory, useParams } from "react-router-dom";
-import { AuthContext } from "../contexts/AuthContext";
+import { AuthContext } from "../../contexts/AuthContext";
 import { FormEvent, useContext, useState } from "react";
-import { database } from "../services/firebase";
-import { Question } from "../components/Questions";
-import { useRoom } from "../hooks/useRoom";
+import { database } from "../../services/firebase";
+import { Question } from "../../components/Question/Questions";
+import { useRoom } from "../../hooks/useRoom";
 import {Link} from 'react-router-dom'
 
 type RoomParams={

@@ -1,9 +1,9 @@
-import '../styles/home.scss'
-import {Button} from '../components/Button'
+import './home.scss'
+import {Button} from '../../components/button/Button'
 import { FormEvent, useContext, useState } from 'react'
-import { AuthContext } from '../contexts/AuthContext'
+import { AuthContext } from '../../contexts/AuthContext'
 import { Link, useHistory } from 'react-router-dom'
-import { database } from '../services/firebase'
+import { database } from '../../services/firebase'
 
 
 

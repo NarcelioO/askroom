@@ -1,10 +1,10 @@
-import  '../styles/home.scss'
-import {Button} from '../components/Button'
+import  './home.scss'
+import {Button} from '../../components/button/Button'
 import { useHistory } from 'react-router'
 import { FormEvent, useContext, useState } from 'react'
-import { AuthContext } from '../contexts/AuthContext'
-import { database } from '../services/firebase'
-import ImgGoogleICon from '../assets/images/google-icon.svg'
+import { AuthContext } from '../../contexts/AuthContext'
+import { database } from '../../services/firebase'
+import ImgGoogleICon from '../../assets/images/google-icon.svg'
 
 
 

@@ -1,14 +1,14 @@
-import { Button } from "../components/Button";
-import { RoomCode } from "../components/RoomCode";
-import '../styles/room.scss'
+import { Button } from "../../components/button/Button";
+import { RoomCode } from "../../components/RoomCode/RoomCode";
+import './room.scss'
 import { Link, useHistory, useParams } from "react-router-dom";
-import { Question } from "../components/Questions";
-import { useRoom } from "../hooks/useRoom";
-import { database } from "../services/firebase";
+import { Question } from "../../components/Question/Questions";
+import { useRoom } from "../../hooks/useRoom";
+import { database } from "../../services/firebase";
 
-import ImgDelete from '../assets/images/delete.svg'
-import CheckImg from '../assets/images/check.svg'
-import AnswerImg from '../assets/images/answer.svg'
+import ImgDelete from '../../assets/images/delete.svg'
+import CheckImg from '../../assets/images/check.svg'
+import AnswerImg from '../../assets/images/answer.svg'
 import { Fragment } from "react";
 
 
