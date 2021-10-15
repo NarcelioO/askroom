@@ -1,3 +1,35 @@
+##  Tecnologias
+
+Tecnologias usadas no projeto:
+
+- [React](https://reactjs.org)
+- [Firebase](https://firebase.google.com/)
+- [TypeScript](https://www.typescriptlang.org/)
+
+## 🚀 Como executar
+
+Clone o projeto e acesse a pasta do mesmo.
+
+```bash
+$ git clone https://github.com/rocketseat-education/nlw-06-reactjs
+$ cd nlw-06-reactjs
+```
+
+Para iniciá-lo, siga os passos abaixo:
+```bash
+# Instalar as dependências
+$ npm
+
+# Iniciar o projeto
+$ npm start
+```
+O app estará disponível no seu browser pelo endereço http://localhost:3000.
+
+Lembrando que será necessário criar uma conta no [Firebase](https://firebase.google.com/) e um projeto para disponibilizar um Realtime Database.
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
